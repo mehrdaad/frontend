@@ -103,7 +103,7 @@ const defineSlot = (adSlotNode: Element, sizes: Object): Object => {
         /* eslint-enable no-underscore-dangle */
 
         iasPET.queue = iasPET.queue || [];
-        iasPET.pubId = '59666047';
+        iasPET.pubId = '10249';
 
         const iasPETSlots = window.iasPETSlots || [];
 
