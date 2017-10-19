@@ -445,10 +445,7 @@ class Comments extends Component {
         commentBox.render(parentCommentEl);
 
         commentBox.on('post:success', (comment: CommentType) => {
-            let responses = qwery(
-                '.d-thread--responses',
-                parentCommentEl
-            )[0];
+            let responses = qwery('.d-thread--responses', parentCommentEl)[0];
 
             if (!responses) {
                 responses = bonzo.create(
